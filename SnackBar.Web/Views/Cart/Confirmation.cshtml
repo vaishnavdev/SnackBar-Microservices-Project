@@ -1,0 +1,37 @@
+﻿
+
+<div class="text-center">
+    <h1 class="text-info pt-4"> Congartulations! You are one step closer to amazing food. </h1>
+    <p class="pb-3">We have received your order and payment! &nbsp;Hurray... Your order is being prepared.</p>
+    
+    <img src="/images/order.PNG" width="80%"/>
+</div>
+
+<br/>
+
+<div>
+     <h2 class="text-info py-2 pt-2">Order Summary:</h2>
+    @if(TempData["Name"] != null)
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>OrderTotal</th>
+                    <th>Discount Applied</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><p class="pb-3">@TempData["Name"]</p></td>
+                    <td><p class="pb-3">@TempData["OrderTotal"]</p></td>
+                     <td><p class="pb-3">@TempData["Discount"]</p></td>
+                      <td><p class="pb-3">@TempData["PhoneNumber"]</p></td>
+                       <td><p class="pb-3">@TempData["Email"]</p></td>
+                </tr>
+            </tbody>
+        </table>
+    }
+</div>
