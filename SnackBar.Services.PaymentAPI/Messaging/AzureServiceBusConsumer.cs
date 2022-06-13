@@ -82,6 +82,7 @@ namespace SnackBar.Services.PaymentAPI.Messaging
             {
                 Status = StatusResult,
                 OrderId = paymentRequestMessage.OrderId,
+                Email = paymentRequestMessage.Email,
             };
             try
             {

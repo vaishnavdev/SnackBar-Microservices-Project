@@ -1,4 +1,4 @@
-﻿namespace SnackBar.Services.OrderAPI.Messages
+﻿namespace SnackBar.Services.Email.Messages
 {
     public class PaymentResponseMessage
     {

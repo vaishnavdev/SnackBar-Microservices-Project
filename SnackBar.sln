@@ -32,7 +32,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payments", "Payments", "{3A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentProcessor", "PaymentProcessor\PaymentProcessor.csproj", "{362D534F-008E-4F44-9D1D-633124951617}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnackBar.Services.PaymentAPI", "SnackBar.Services.PaymentAPI\SnackBar.Services.PaymentAPI.csproj", "{61EDF723-3031-477D-8A96-19DD7328C541}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnackBar.Services.PaymentAPI", "SnackBar.Services.PaymentAPI\SnackBar.Services.PaymentAPI.csproj", "{61EDF723-3031-477D-8A96-19DD7328C541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnackBar.Services.Email", "SnackBar.Services.Email\SnackBar.Services.Email.csproj", "{9ADFEE54-DDA1-41BF-A255-749414D77A96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,6 +78,10 @@ Global
 		{61EDF723-3031-477D-8A96-19DD7328C541}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61EDF723-3031-477D-8A96-19DD7328C541}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61EDF723-3031-477D-8A96-19DD7328C541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ADFEE54-DDA1-41BF-A255-749414D77A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ADFEE54-DDA1-41BF-A255-749414D77A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ADFEE54-DDA1-41BF-A255-749414D77A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ADFEE54-DDA1-41BF-A255-749414D77A96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{ECB190AC-A4C9-45A6-A706-02C047B3BCA1} = {F4ED1E43-284E-448B-AAEB-F00B7EF64FF1}
 		{362D534F-008E-4F44-9D1D-633124951617} = {3A991ED0-7AA0-4DF2-A50E-994504ABA132}
 		{61EDF723-3031-477D-8A96-19DD7328C541} = {F4ED1E43-284E-448B-AAEB-F00B7EF64FF1}
+		{9ADFEE54-DDA1-41BF-A255-749414D77A96} = {F4ED1E43-284E-448B-AAEB-F00B7EF64FF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {885382C9-8490-43F5-9946-B7BD2340C1FC}
