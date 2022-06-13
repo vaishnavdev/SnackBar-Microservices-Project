@@ -13,7 +13,7 @@ namespace SnackBar.Services.ShoppingCartAPI.Repository
         }
         public async Task<CouponDto> GetCoupon(string couponCode)
         {
-            var response = await _httpClient.GetAsync($"https://localhost:44350/get-coupon/{couponCode}");
+            var response = await _httpClient.GetAsync($"https://localhost:44346/get-coupon/{couponCode}");
             var apiContent = await response.Content.ReadAsStringAsync();
             var resp = JsonConvert.DeserializeObject<ResponseDto>(apiContent);
 

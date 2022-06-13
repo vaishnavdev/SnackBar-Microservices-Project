@@ -51,7 +51,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 //Add authentication to use IdentityServer
-builder.Services.AddAuthentication("Bearer").AddJwtBearer("Bearer", options =>
+builder.Services.AddAuthentication("Bearer")
+                .AddJwtBearer("Bearer", options =>
 {
     options.Authority = "https://localhost:44352";
     options.TokenValidationParameters = new TokenValidationParameters()
